@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>AJC</title>
+  <style>
+    body {
+      padding: 50px;
+      background-color: #f4eb1d
+    }
+
+    #container {
+      padding: 5px;
+      width: 400px;
+      height: 55r0px;
+      background-color: #eeeeee;
+      text-align: center;
+      font-size: 150%;
+    }
+
+    #hexagon {
+      width: 250px;
+      height: 250px;
+
+      animation: pong 2s infinite;
+
+    }
+
+    @keyframes pong {
+      0% {
+        transform: translate3d(0, 0, 0);
+      }
+      12.5% {
+        transform: translate3d(14px, 62px, 0);
+      }
+      25% {
+        transform: translate3d(66px, 0, 0);
+      }
+      37.5% {
+        transform: translate3d(14px, -62px, 0);
+      }
+      50% {
+        transform: translate3d(0, 0, 0);
+      }
+      62.5% {
+        transform: translate3d(-14px, 62px, 0);
+      }
+      75% {
+        transform: translate3d(-66px, 0, 0);
+      }
+      87.5% {
+        transform: translate3d(-14px, -62px, 0);
+      }
+      100% {
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <h1>AJC<strong/></h1>
+    <img id="hexagon" src="https://openclipart.org/download/285689/publicdomainq-scientist-Albert_Einstein.svg" />
+  </div>
+</body>
+
+</html>

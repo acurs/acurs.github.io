@@ -1,0 +1,280 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+  height: 200px;
+}
+
+body {
+  background: #000;
+}
+
+
+nav {
+  width: 0px;
+}
+
+footer {
+  clear: both;
+  height: 50px;
+}
+
+#container {
+  padding: 5px;
+  height: 500px;
+  background-color: #eeeeee;
+  text-align: center;
+  font-size: 150%;
+}
+
+#albert {
+  padding: 50px;
+  width: 200px;
+  height: 200px;
+  animation: pong 2s infinite;
+}
+
+
+@keyframes pong {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  12.5% {
+    transform: translate3d(14px, 62px, 0);
+  }
+  25% {
+    transform: translate3d(66px, 0, 0);
+  }
+  37.5% {
+    transform: translate3d(14px, -62px, 0);
+  }
+  50% {
+    transform: translate3d(0, 0, 0);
+  }
+  62.5% {
+    transform: translate3d(-14px, 62px, 0);
+  }
+  75% {
+    transform: translate3d(-66px, 0, 0);
+  }
+  87.5% {
+    transform: translate3d(-14px, -62px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+.group:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 1000px) {
+    .left {
+        float: none;
+        width: auto;
+    },
+    .right {
+        float: none;
+        width: auto;
+    }
+}
+
+.videoWrapper h1{
+  text-align: left;
+  font-family: 'ITC Benguiat W01';
+  font-weight: 800;
+  color: #1c0502;
+  text-shadow: -0.05rem -0.05rem 1px #ed2b12,
+    0.05rem -0.05rem 1px #ed2b12,
+    -0.05rem 0.05rem 1px #ed2b12,
+    0.05rem 0.05rem 1px #ed2b12,
+    0 0 15px #630100,
+    0 0 20px #450100;
+  letter-spacing: -2px;
+}
+.videoWrapper iframe {
+    height: 250px;
+    width: 500px;
+}
+
+.tpText h1{
+  text-align: left;
+  font-family: 'ITC Benguiat W01';
+  font-weight: 800;
+  color: #1c0502;
+  text-shadow: -0.05rem -0.05rem 1px #ed2b12,
+    0.05rem -0.05rem 1px #ed2b12,
+    -0.05rem 0.05rem 1px #ed2b12,
+    0.05rem 0.05rem 1px #ed2b12,
+    0 0 15px #630100,
+    0 0 20px #450100;
+  letter-spacing: -2px;
+}
+
+.tpText iframe {
+    height: 250px;
+    width: 500px;
+}
+
+.clearer {
+    clear: both;
+}
+
+
+
+/* CSS Stranger THings */
+.st {
+  width: 832px;
+  margin: 6rem auto 3rem auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 8rem;
+  font-family: 'ITC Benguiat W01';
+  font-weight: 800;
+  color: #1c0502;
+  text-shadow: -0.05rem -0.05rem 1px #ed2b12,
+    0.05rem -0.05rem 1px #ed2b12,
+    -0.05rem 0.05rem 1px #ed2b12,
+    0.05rem 0.05rem 1px #ed2b12,
+    0 0 15px #630100,
+    0 0 20px #450100;
+  letter-spacing: -2px;
+}
+
+.st p {
+  display: inline-block;
+  margin: 0;
+}
+
+
+.st-bound {
+  box-shadow: -0.05rem -0.05rem 2px #ed2b12,
+    0.05rem -0.05rem 2px #ed2b12,
+    -0.05rem 0.05rem 2px #ed2b12,
+    0.05rem 0.05rem 2px #ed2b12;
+  height: 5px;
+}
+
+.st-bound-full {
+  width: 100%;
+  margin: auto;
+  margin-bottom: -1.2rem;
+  max-width: 832px;
+  margin-left: 5px;
+}
+
+.st-bound-mini {
+  margin-top: 0.5rem;
+}
+
+.st-bound-left {
+  float: left;
+  width: 99px;
+  position: relative;
+  left: 5px;
+}
+
+.st-bound-right {
+  float: right;
+  width: 103px;
+  left: 0.3rem;
+  position: relative;
+}
+
+.st-bottom {
+  clear: both;
+  top: -3.25rem;
+  position: relative;
+  left: .6rem;
+  letter-spacing: -20px;
+  font-size: 76%;
+}
+
+.st-drop {
+  line-height: 0;
+  position: relative;
+  top: 1.55rem;
+}
+
+.st-stranger-s {
+  font-size: 10.5rem;
+  letter-spacing: -8px;
+}
+
+.st-stranger-t {
+  letter-spacing: 0;
+}
+
+.st-stranger-n {
+  letter-spacing: -5px;
+}
+
+.st-stranger-g {
+  letter-spacing: 0;
+}
+
+.st-stranger-r-2 {
+  font-size: 10.5rem;
+  right: 0.2rem;
+}
+
+.st-proyectos-p {
+  font-size: 106%;
+  letter-spacing: 2px;
+}
+
+.st-proyectos-r {
+  letter-spacing: -5px;
+  font-size: 93%;
+}
+
+.st-proyectos-o1 {
+  letter-spacing: -7px;
+  font-size: 91%;
+}
+
+.st-proyectos-y {
+  letter-spacing: 2px;
+  font-size: 89%;
+}
+
+
+.st-proyectos-e {
+  letter-spacing: -3px;
+  font-size: 89%;
+}
+
+.st-proyectos-c {
+  letter-spacing: -2px;
+  font-size: 87%;
+}
+
+.st-proyectos-t {
+  letter-spacing: -3px;
+  font-size: 89%;
+}
+
+.st-proyectos-o2 {
+  letter-spacing: -1px;
+  font-size: 89%;
+}
+
+.st-proyectos-s {
+  letter-spacing: -5px;
+  font-size: 107%;
+}
