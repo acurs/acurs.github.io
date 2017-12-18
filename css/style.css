@@ -19,11 +19,26 @@ footer {
 }
 
 #container {
-  padding: 5px;
-  height: 500px;
+  padding: 10px;
+  height: 430px;
   background-color: #eeeeee;
   text-align: center;
-  font-size: 150%;
+
+}
+
+
+#title {
+  font-family: 'Bungee', cursive;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+#subtitle {
+  font-family: 'Spectral SC', serif;
+  padding: 10px;
+  font-size: 20px;
+
+  letter-spacing: 3px;
 }
 
 #albert {

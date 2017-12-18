@@ -14,13 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Gestión de Proyectos 2017
-email: albertocursack@gmail.custom
 description: >- # this means to ignore newlines until "baseurl:"
   Este es el sitio de la cátedra de gestión de proyectos de la carrera de Licenciatura
   en Producción de Videojuegos y Entretenimiento Digital.
 baseurl: "/gp2017" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: alcursack
 github_username:  acurs
 
 # Build settings
